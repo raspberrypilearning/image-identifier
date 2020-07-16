@@ -1,0 +1,11 @@
+title: image-identifier
+hero_image: images/banner.png
+description: image-identifier description
+version: 4
+listed: false
+copyedit: false
+last_tested: "2020-07-16"
+steps:
+  - title: Introduction
+  - title: Step title
+  - title: What next?
