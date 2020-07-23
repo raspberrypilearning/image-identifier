@@ -1,4 +1,4 @@
-## Install libraries
+## Install the libraries
 
 Now that you have a CLI in the right directory, you can start running Python commands with the files in it. 
 

@@ -7,5 +7,8 @@ copyedit: false
 last_tested: "2020-07-16"
 steps:
   - title: Introduction
-  - title: Step title
-  - title: What next?
+  - title: Get the starter files
+  - title: Install the libraries
+  - title: Predict an image from your computer
+  - title: Connect to Wikipedia
+  - title: What's next?

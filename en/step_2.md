@@ -1,4 +1,4 @@
-## Getting the starter files
+## Get the starter files
 
 You're going to do this project on your computer, and you'll be using some starter code that will handle setting up the application for you, so you can focus on the machine learning part. The first thing you need to do is get that code and set it up.
 
