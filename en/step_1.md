@@ -6,7 +6,7 @@ In this project you'll be creating an application that will run on your computer
 
 You'll use an existing image classification model that has been trained to recognise many things. You will combine it with information from Wikipedia to tell users about the things in their photographs.
 
-![]()
+![](images/finished_project.png)
 
 --- collapse ---
 ---
