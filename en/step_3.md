@@ -6,8 +6,6 @@ The command to install the libraries you need uses **pip**, a tool for fetching 
 
 Conveniently, pip can be given a list of all the librarys a project needs, and told to install them all at once. These are usually included in a file called `requirements.txt`, as they have been with the starter code provided here.
 
-OPEN QUESTION : SHOULD I HANDLE A SCENARIO WHERE THEY DON'T HAVE PYTHON 3 INSTALLED AT ALL? IF SO, SHOULD WE AUTOMATE THE DOWNLOAD/INSTALL THROUGH SOME SORT OF SCRIPT, OR JUST SEND THEM TO THE PYTHON SITE?
-
 --- task ---
 
 Run this command on your CLI to install the libraries you'll need. It may take a while to run, as it will have to download the libraries from the internet and some of them are quite large.
@@ -24,8 +22,6 @@ Now that you have the libraries you need installed, it's time to open the Python
 ---
 title: Click here if you need to install a programmer's text editor
 ---
-
-WHICH EDITOR ARE WE RECOMMENDING THESE DAYS? BRACKETS?
 
 --- /collapse ---
 

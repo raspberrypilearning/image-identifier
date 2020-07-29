@@ -93,8 +93,4 @@ Now, when users select a picture, the prediction of what's in the picture will a
 
 Run the program again and try selecting some of the pictures included in the project's directory, to see what predictions get printed out in the CLI.
 
-TODO — FIND SOME CC IMAGES TO INCLUDE IN THE DIRECTORY IN QUESTION
-
 --- /task ---
-
-IS THERE SOME WAY TO HIGHLIGHT ADDITIONS IN A CODE BLOCK? CAN WE GET THAT IF THERE'S NOT?
