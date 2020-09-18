@@ -1,20 +1,4 @@
-## Install the libraries
-
-Now that you have a CLI in the right directory, you can start running Python commands with the files in it. 
-
-The command to install the libraries you need uses **pip**, a tool for fetching Python code written by other people from the internet and setting it up so you can use it in your projects. It's important to use pip to install libraries rather than just downloading them: some libraries need other libraries to work (these libraries are called their **dependencies**) and pip will automatically install those too.
-
-Conveniently, pip can be given a list of all the librarys a project needs, and told to install them all at once. These are usually included in a file called `requirements.txt`, as they have been with the starter code provided here.
-
---- task ---
-
-Run this command on your CLI to install the libraries you'll need. It may take a while to run, as it will have to download the libraries from the internet and some of them are quite large.
-
-```bash
-pip install requirements.txt 
-```
-
---- /task ---
+## Running the program
 
 Now that you have the libraries you need installed, it's time to open the Python file you'll be using to do this project. If you've never written Python on your computer before, you may need to install a programmer's text editor first.
 
@@ -22,6 +6,8 @@ Now that you have the libraries you need installed, it's time to open the Python
 ---
 title: Click here if you need to install a programmer's text editor
 ---
+
+[WHICH ONE?]
 
 --- /collapse ---
 
@@ -37,7 +23,7 @@ There's a lot of code already provided for you, but it's all for creating the us
 
 Go back to your CLI window and type the following command to run the program. Remember it, as you'll need to run the program several times.
 
-### If you're using Windows or Linux
+### If you're using Windows
 
 ```
 python project.py
@@ -45,7 +31,7 @@ python project.py
 
 Then press the return key to run the program.
 
-### If you're using a Mac
+### If you're using a Mac or Linux
 ```
 python3 project.py
 ```

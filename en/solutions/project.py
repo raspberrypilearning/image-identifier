@@ -4,6 +4,8 @@ import tensorflow as tf
 import numpy as np
 import wikipedia as wiki
 
+model = tf.keras.applications.VGG16()
+
 ### This is the code for the user interface, including updating the text and resizing images ###
 
 # This dictionary stores the dimensions for the displayed image
@@ -87,8 +89,6 @@ def update_picture():
     article = wiki.page(prediction)
     title.value = article.title
     update_text_box(article.summary)
-
-model = tf.keras.applications.VGG16()
 
 IMAGE_SIZE = 224
 

@@ -2,7 +2,7 @@
 
 The application has all the parts it needs, but it doesn't actually work yet. It just loads up an image and displays it — no machine learning, no information about the thing in the picture. Time to fix that!
 
-First, you're going to need to load a model to do your image identification. While you could collect and label tens of thousands of images, design a model, and train it like in [project 3](#), that would take days of work. It's much faster to use a model that has already been trained to identify a wide variety of things. Luckily, TensorFlow contains several such models, so you can just load one of them: VGG16.
+First, you're going to need to load a model to do your image identification. While you could collect and label tens of thousands of images, design a model, and train it like in [Teach a computer to read](#), that would take days of work. It's much faster to use a model that has already been trained to identify a wide variety of things. Luckily, TensorFlow contains several such models, so you can just load one of them: VGG16.
 
 The first thing you'll need to do is import TensorFlow so you can use it in the program. On the very first lines of the file you'll see a couple of existing import statements:
 
@@ -26,13 +26,15 @@ Notice that, while you're importing the libraries, you're using the `as` keyword
 
 --- task ---
 
-Near the end of `project.py` find the `update_picture` function. In the gap between the end of the `update_picture` function and the line after it (`button = PushButton…`), add a few blank lines for space (just to make it easier to read the code) and load the VGG16 model from the TensorFlow library into a variable called `model`.
+Just below the `import` statements at the top of the file, load the VGG16 model from the TensorFlow library into a variable called `model`.
 
 ```python
 model = tf.keras.applications.VGG16()
 ```
 
 --- /task ---
+
+You're loading the model at the start of your program because it takes some time, and you need to load it before creating your user interface, to avoid creating an empty window, which might confuse your user. Since this can mean the program doesn't seem to do anything for a few seconds, you might want to print out a message like 'Preparing to start application' or 'Loading image identifier' before you start loading the model.
 
 The `keras.applications` included in loading the model is because TensorFlow is a very large library and is broken up into sections. 'Keras' is one of those, 'applications' is a section of 'Keras', and VGG16 is in the 'applications' section.
 
@@ -42,7 +44,7 @@ Now that the model is loaded, you need to take the image provided by the users o
 
 First, create a variable that stores the size of image, in pixels, that the model expects. Since it was trained on square images, you only need to store a single number — the width and height are the same.
 
-Below your `model` variable, add an `IMAGE_SIZE` variable and set it to 224. Remember that for variables set by the programmer and not changed during the course of the program, we use uppercase names.
+Near the end of `project.py` find the `update_picture` function. In the gap between the end of the `update_picture` function and the line after it (`button = PushButton…`), add a few blank lines for space (just to make it easier to read the code) and add an `IMAGE_SIZE` variable and set it to 224. Remember that for variables set by the programmer and not changed during the course of the program, we use uppercase names.
 
 ```python
 IMAGE_SIZE = 224
@@ -68,7 +70,7 @@ def identify_image(image_path):
 
 --- /task ---
 
-To understand each step in this process, you can review [project 1](#), particulary the 'Load your model and image' and 'Use the model to predict an image' steps. In short: 
+To understand each step in this process, you can review [Testing your comptuer's vision](#), particulary the 'Load your model and image' and 'Use the model to predict an image' steps. In short: 
 
   * All the lines starting with `image` are working to convert the image to the right format for the model
   * The `prediction_result` line is getting the model's prediction in the form of numbers representing confidence in different guesses
@@ -94,3 +96,7 @@ Now, when users select a picture, the prediction of what's in the picture will a
 Run the program again and try selecting some of the pictures included in the project's directory, to see what predictions get printed out in the CLI.
 
 --- /task ---
+
+Note the the first time you run the program it may take a while, as it needs to download the model before it can be used.
+
+--- save ---

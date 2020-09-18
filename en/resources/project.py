@@ -1,8 +1,5 @@
 from guizero import App, Box, Text, TextBox, Picture, PushButton
 from PIL import Image
-import tensorflow as tf
-import numpy as np
-import wikipedia as wiki
 
 ### This is the code for the user interface, including updating the text and resizing images ###
 
@@ -13,6 +10,8 @@ DISPLAY_IMAGE_SIZE = {
 }
 
 # This function resizes an image that is bigger than either the max width or height to fit within them
+
+
 def generate_display_picture(picture_path, display_image_size):
     picture = Image.open(picture_path)
 
@@ -45,9 +44,11 @@ def generate_display_picture(picture_path, display_image_size):
     return picture
 
 # This function updates the wiki_text text box with contents passed to it in updated_text
+
+
 def update_text_box(updated_text):
 
-    global  wiki_text
+    global wiki_text
 
     wiki_text.enable()
 
@@ -56,6 +57,7 @@ def update_text_box(updated_text):
     wiki_text.append(updated_text)
 
     wiki_text.disable()
+
 
 # Create the application
 app = App(title='Amazing Image Identifier')
@@ -71,7 +73,8 @@ content_box = Box(app, width='fill', align='top')
 # Create an invisible box to hold the image
 picture_box = Box(content_box, align='left')
 # Create the image and set it to the start.jpg file included in this directory
-display_image = Picture(picture_box, image=generate_display_picture('start.jpg', DISPLAY_IMAGE_SIZE))
+display_image = Picture(picture_box, image=generate_display_picture(
+    'start.jpg', DISPLAY_IMAGE_SIZE))
 # Create the text box for article text
 wiki_text = TextBox(content_box, multiline=True, enabled=False, scrollbar=True,
                     text="Please choose an image to identify.", width='fill', height='fill')
@@ -80,9 +83,11 @@ button_box = Box(app, width='fill', align='bottom')
 
 ### End user interface code ###
 
+
 def update_picture():
     pic = app.select_file()
     display_image.image = generate_display_picture(pic, DISPLAY_IMAGE_SIZE)
+
 
 # This line creates a button with the text 'Select picture' and tells it to run the update_picture function when clicked
 # It has to come later than the other interface code, as it needs the update_picture function to be created first
