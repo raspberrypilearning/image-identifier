@@ -15,16 +15,12 @@ Next, you need to install the libraries you're going to be using in this project
 
 In the CLI, you don't access files by clicking to open them, or the directories (folders) they live in. You need to know the **path** to the file. It's like a set of directions, either from where you are currently located on the computer — called a **relative path** — or from the root of the computer's hard drive — called an **absolute path**. You'll need to find the path to the directory you've just unzipped for this next step.
 
---- collapse ---
----
-title: Finding the path to a directory on Windows
----
+
+#### Finding the path to a directory on Windows
 
 The easiest way to find the path to a directory you know in Windows is to open the folder in Windows Explorer, as you would normally, and click into the navigation bar at the top of the window. The full path for the folder should become visible and you can then copy it.
 
 ![The Windows Explorer navigation bar for a folder, with the path highlighted.](images/windows_path.png)
-
---- /collapse ---
 
 --- task ---
 
