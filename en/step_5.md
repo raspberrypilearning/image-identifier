@@ -37,6 +37,8 @@ update_text_box(article.summary)
 
 --- /task ---
 
+--- save ---
+
 --- task ---
 
 Run the program again and try selecting some of the pictures included in the project's directory, to see what articles appear in the application.

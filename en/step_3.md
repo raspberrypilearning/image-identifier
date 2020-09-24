@@ -1,4 +1,4 @@
-## Running the program
+## Run the program
 
 Now that you have the libraries you need installed, it's time to open the Python file you'll be using to do this project. If you've never written Python on your computer before, you may need to install a programmer's text editor first.
 

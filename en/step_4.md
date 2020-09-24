@@ -91,6 +91,8 @@ print(prediction)
 
 Now, when users select a picture, the prediction of what's in the picture will appear in the CLI.
 
+--- save ---
+
 --- task ---
 
 Run the program again and try selecting some of the pictures included in the project's directory, to see what predictions get printed out in the CLI.
@@ -98,5 +100,3 @@ Run the program again and try selecting some of the pictures included in the pro
 --- /task ---
 
 Note the the first time you run the program it may take a while, as it needs to download the model before it can be used.
-
---- save ---
