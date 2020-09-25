@@ -43,7 +43,7 @@ Conveniently, pip can be given a list of all the librarys a project needs, and t
 Run this command on your CLI to install the libraries you'll need. It may take a while to run, as it will have to download the libraries from the internet and some of them are quite large.
 
 ```bash
-pip install requirements.txt 
+pip install -r requirements.txt 
 ```
 
 --- /task ---
