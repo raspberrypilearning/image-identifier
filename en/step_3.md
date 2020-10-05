@@ -6,8 +6,11 @@ Now that you have the libraries you need installed, it's time to open the Python
 ---
 title: Click here if you need to install a programmer's text editor
 ---
+There are lots of different programmer's text editors, and they are usually free, so most programmers try a few before finding their favourite. As you become more experienced, you should try different editors to see if there's one you enjoy using more than the others. For now, though, try one of the following:
 
-[WHICH ONE?]
+Use [Thonny](https://thonny.org/) if you do all your text-based programming in Python. It's got a lot of helpful features that work with Python to help you program correctly, and to investigate if your program isn't working as expected.
+
+If you use a few different languages — for example, if you create web pages with HTML and CSS as well as Python applications — then [Visual Studio Code](https://code.visualstudio.com/) is a good choice. It offers less help for any particular language, but supports a lot of different languages.
 
 --- /collapse ---
 

@@ -9,6 +9,7 @@ steps:
   - title: Introduction
   - title: Get the starter files
   - title: Run the program
+  - title: Load your model
   - title: Predict an image from your computer
   - title: Connect to Wikipedia
   - title: What's next?
