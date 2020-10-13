@@ -1,0 +1,5 @@
+guizero==1.1.0
+numpy==1.18.4
+Pillow==7.1.2
+tensorflow==2.2.0
+wikipedia==1.4.0
