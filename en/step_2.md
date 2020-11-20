@@ -11,7 +11,7 @@ title: For Windows
 Download the [starter zip file](http://rpf.io/image-identifier-go) and unzip it somewhere you'll remember on your computer. If you can't think of a location, just put it on your desktop. This isn't the best place to keep things in the long term, but it's fine when you're working on them.
 --- /task ---
 
-Next, you need to install the libraries you're going to be using in this project. For this, you'll need to use the **command line interace** (CLI) — a program for controlling your computer by typing text commands into a window. The command line interface is called 'command prompt' in Windows.
+Next, you need to install the libraries you're going to be using in this project. For this, you'll need to use the **command line interface** (CLI) — a program for controlling your computer by typing text commands into a window. The command line interface is called 'command prompt' in Windows.
 
 In the CLI, you don't access files by clicking to open them, or the directories (folders) they live in. You need to know the **path** to the file. It's like a set of directions, either from where you are currently located on the computer — called a **relative path** — or from the root of the computer's hard drive — called an **absolute path**. You'll need to find the path to the directory you've just unzipped for this next step.
 
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 title: For Mac OS
 ---
 
-To install the libraries and other files you're going to be using in this project you'll need to use the **command line interace** (CLI) — a program for controlling your computer by typing text commands into a window. The command line interface is called 'terminal' in Linux.
+To install the libraries and other files you're going to be using in this project you'll need to use the **command line interface** (CLI) — a program for controlling your computer by typing text commands into a window. The command line interface is called 'terminal' in Linux.
 
 In the CLI, you don't access files by clicking to open them, or the directories (folders) they live in. You need to know the **path** to the file. It's like a set of directions, either from where you are currently located on the computer — called a **relative path** — or from the root of the computer's hard drive — called an **absolute** path. You'll need to find the path to the directory you've just unzipped for this next step.
 
@@ -105,7 +105,7 @@ cd amazing_image_identifier
 title: For Linux (including Raspberry Pi)
 ---
 
-To install the libraries and other files you're going to be using in this project you'll need to use the **command line interace** (CLI) — a program for controlling your computer by typing text commands into a window. The command line interface is called 'terminal' in Linux.
+To install the libraries and other files you're going to be using in this project you'll need to use the **command line interface** (CLI) — a program for controlling your computer by typing text commands into a window. The command line interface is called 'terminal' in Linux.
 
 In the CLI, you don't access files by clicking to open them, or the directories (folders) they live in. You need to know the **path** to the file. It's like a set of directions, either from where you are currently located on the computer — called a **relative path** — or from the root of the computer's hard drive — called an **absolute** path. You'll need to find the path to the directory you've just unzipped for this next step.
 
