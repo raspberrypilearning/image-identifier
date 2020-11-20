@@ -14,7 +14,7 @@ IMAGE_SIZE = 224
 
 --- /task ---
 
-Now you need to create a function, that will take the image path the user selects and return the model's prediciton of what that image contains.
+Now you need to create a function that will take the image path the user selects and return the model's prediction of what that image contains.
 
 --- task ---
 
@@ -32,7 +32,7 @@ def identify_image(image_path):
 
 --- /task ---
 
-To understand each step in this process, you can review [Testing your comptuer's vision](#), particulary the 'Load your model and image' and 'Use the model to predict an image' steps. In short: 
+To understand each step in this process, you can review [Testing your computer's vision](#), particularly the 'Load your model and image' and 'Use the model to predict an image' steps. In short: 
 
   * All the lines starting with `image` are working to convert the image to the right format for the model
   * The `prediction_result` line is getting the model's prediction in the form of numbers representing confidence in different guesses
