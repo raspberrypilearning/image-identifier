@@ -36,7 +36,7 @@ To understand each step in this process, you can review [Testing your computer's
 
   * All the lines that start with `image` work to convert the image to the right format for the model.
   * The `prediction_result` line gets the model's prediction in the form of numbers that represent confidence in different guesses.
-  * The `best_prediction` line takes those numbers and uses a tool provided by TensorFlow for models trained on the ImageNet dataset (as this one was) that takes the numerical values and selects the labels for the top predictions. In this case, you're only asking for the very top prediction, by setting `top=1`.
+  * The `best_prediction` line takes those numbers and uses a tool provided by TensorFlow for models trained on the ImageNet dataset (as this one was) which takes the numerical values and selects the labels for the top predictions. In this case, you're only asking for the very top prediction, by setting `top=1`.
 
 Now you need to have your function called when users choose a new picture. 
 
