@@ -47,7 +47,7 @@ It may take a moment, but when your program runs you should see something like t
 
 ![The application screen. A title at the top reads 'Amazing Image Identifier'. Below is divided vertically into two equal sections. On the left is a large red question mark on a white background. On the right is black text, also on a white background, which reads 'Please choose an image to identify.' At the bottom of the screen there is a 'Select picture' button, which is centred.](images/initial_application.png)
 
-If you click on the 'Select picture' button, you will be able to select an image, which should replace the question mark. Note the image has to be a `.jpg` or `.jpeg` file, as this is what the model you'll be using will expect.
+If you click on the **Select picture** button, you will be able to select an image, which should replace the question mark. Note the image has to be a `.jpg` or `.jpeg` file, as this is what this model will expect.
 
 --- task ---
 
