@@ -51,7 +51,7 @@ print(prediction)
 
 --- /task ---
 
-Now, when users select a picture, the prediction of what's in the picture will appear in the CLI.
+Now, when users select a picture, the prediction of what is in the picture will appear in the CLI.
 
 --- save ---
 
