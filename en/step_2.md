@@ -1,6 +1,6 @@
 ## Get the starter files
 
-You'll use your computer for this project, as well as some starter code to set up the application for you, so you can focus on the machine learning part. First, you need to get that code and set it up. How you do this will vary based on your operating system.
+You'll use your computer for this project, and some starter code to set up the application for you, so you can focus on the machine learning part. First, you need to get that code and set it up. How you do this will vary based on your operating system.
 
 --- collapse ---
 ---
