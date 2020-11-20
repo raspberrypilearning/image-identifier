@@ -60,7 +60,7 @@ To install the libraries and other files you'll use in this project, you need to
 
 In the CLI, you don't access files by clicking to open them, or the directories (folders) they live in. You need to know the **path** to the file. It's like a set of directions, either from where you are currently located on the computer — called a **relative path** — or from the root of the computer's hard drive — called an **absolute** path. You'll need to find the path to the directory you've just unzipped for this next step.
 
-There are also some special paths, that are sorts of shortcuts in the system, and you're going to use one of them, called the **home directory**. Every user on a computer gets their own home directory to store their files, and it is accessed using a special character called the tilde (`~`).
+There are also some special paths, that are sorts of shortcuts in the system, and you will use one of them, called the **home directory**. Every user on a computer gets their own home directory to store their files, and it is accessed through a special character called the tilde (`~`).
 
 --- task ---
 
