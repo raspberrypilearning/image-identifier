@@ -1,3 +1,3 @@
 ## What next?
 
-Now that you've built an application with a pre-trained model, try create one with a model you create in [project 5](#).
+Now that you've built an application with a pre-trained model, try create one with your own model in [project 5](#).
