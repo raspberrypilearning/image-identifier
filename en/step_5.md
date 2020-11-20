@@ -6,7 +6,7 @@ Now that the model is loaded, you need to take the image provided by the users o
 
 First, create a variable that stores the size of image, in pixels, that the model expects. Since it was trained on square images, you only need to store a single number — the width and height are the same.
 
-Near the end of `project.py` find the `update_picture` function. In the gap between the end of the `update_picture` function and the line after it (`button = PushButton…`), add a few blank lines for space (just to make it easier to read the code) and add an `IMAGE_SIZE` variable and set it to 224. Remember that for variables set by the programmer and not changed during the course of the program, we use uppercase names.
+Near the end of `project.py`, find the `update_picture` function. In the gap between the end of the `update_picture` function and the line after it (`button = PushButton…`), add a few blank lines for space (just to make it easier to read the code) and add an `IMAGE_SIZE` variable and set it to 224. Remember that for variables set by the programmer and not changed during the course of the program, use upper case names.
 
 ```python
 IMAGE_SIZE = 224
@@ -14,7 +14,7 @@ IMAGE_SIZE = 224
 
 --- /task ---
 
-Now you need to create a function, that will take the image path the user selects and return the model's prediciton of what that image contains.
+Now you need to create a function that will take the image path the user selects and return the model's prediction of what that image contains.
 
 --- task ---
 
@@ -32,11 +32,11 @@ def identify_image(image_path):
 
 --- /task ---
 
-To understand each step in this process, you can review [Testing your comptuer's vision](#), particulary the 'Load your model and image' and 'Use the model to predict an image' steps. In short: 
+To understand each step in this process, you can review [Testing your computer's vision](#), particularly the 'Load your model and image' and 'Use the model to predict an image' steps. In short: 
 
-  * All the lines starting with `image` are working to convert the image to the right format for the model
-  * The `prediction_result` line is getting the model's prediction in the form of numbers representing confidence in different guesses
-  * The `best_prediction` line is taking those numbers and using a tool provided by TensorFlow for models trained on the ImageNet dataset, as this one was, which takes the numerical values and selects the labels for the top predictions. In this case, you're only asking for the very top prediction, by setting `top=1`
+  * All the lines that start with `image` work to convert the image to the right format for the model.
+  * The `prediction_result` line gets the model's prediction in the form of numbers that represent confidence in different guesses.
+  * The `best_prediction` line takes those numbers and uses a tool provided by TensorFlow for models trained on the ImageNet dataset, as this one was, which takes the numerical values and selects the labels for the top predictions. In this case, you're only asking for the very top prediction, by setting `top=1`.
 
 Now you need to have your function called when users choose a new picture. 
 
@@ -57,7 +57,7 @@ Now, when users select a picture, the prediction of what's in the picture will a
 
 --- task ---
 
-Run the program again and try selecting some of the pictures included in the project's directory, to see what predictions get printed out in the CLI.
+Run the program again and try select some of the pictures included in the project's directory, to see what predictions get printed out in the CLI.
 
 --- /task ---
 

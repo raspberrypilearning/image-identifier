@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project you'll be creating an application that will run on your computer. It will let you select a photograph of an everyday object, plant, or animal and then provide some information about that thing. This could be used in a museum, to let visitors identify exhibits, could be combined with a model specially trained on a city to let visitors identify buildings and landmarks, or really any other situation where a person might look at something and ask "what is that?".
+In this project, you'll create an application that will run on your computer. It will let you select a photograph of an everyday object, plant, or animal, and then provide some information about that thing. This could be used in a museum, to let visitors identify exhibits; it could be combined with a model specially trained on a city to let visitors identify buildings and landmarks; or really any other situation where a person might look at something and ask "What is that?".
 
 ### What you will make
 
@@ -19,7 +19,7 @@ title: What you will need
 ### Software
 
 + Python 3
-+ The PIP python package installer (usually included with Python 3) and permission to install Python packages on your computer
++ The pip Python package installer (usually included with Python 3), and permission to install Python packages on your computer
 
 ### Downloads
 
@@ -32,8 +32,8 @@ title: What you will need
 title: What you will learn
 ---
 
-+ How to include Machine Learning models in a larger application
-+ Usinge library code and web services to achieve impressive results quickly
++ How to include machine learning models in a larger application
++ How to use library code and web services to achieve impressive results quickly
 
 --- /collapse ---
 

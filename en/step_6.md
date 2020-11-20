@@ -26,7 +26,7 @@ article = wiki.page(prediction)
 
 --- /task ---
 
-Right now, you're printing out the prediction to the CLI. To get the application to display information in a user-friendly way, it should update the user interface when it has gotten results from Wikipedia. To do this, you're going to change the title shown in the application to match the title of the Wikipedia article, and update the text, using a function that has been provided in the `project.py` file, to the summary text from the article.
+Right now, you're printing out the prediction to the CLI. To get the application to display information in a user-friendly way, it should update the user interface when it has gotten results from Wikipedia. To do this, change the title shown in the application to match the title of the Wikipedia article, and update the text to the summary text from the article — using a function that has been provided in the `project.py` file.
 
 --- task ---
 
@@ -43,7 +43,7 @@ update_text_box(article.summary)
 
 --- task ---
 
-Run the program again and try selecting some of the pictures included in the project's directory, to see what articles appear in the application.
+Run the program again and try select some of the pictures included in the project's directory, to see what articles appear in the application.
 
 Try some other pictures from your computer, or the web too. Since it works best with square images, you may want to use the [Google Advanced Image Search](https://www.google.com/advanced_image_search) tool and set the **aspect ratio** to 'Square'.
 
