@@ -34,7 +34,7 @@ model = tf.keras.applications.VGG16()
 
 --- /task ---
 
-Load the model at the start of your program because it takes some time, and you need to load it before you create your user interface, to avoid creating an empty window that might confuse your user. Since this can mean the program doesn't seem to do anything for a few seconds, you might want to print out a message like 'Preparing to start application' or 'Loading image identifier' before you start to load the model.
+Load the model at the start of your program because it takes some time, and you need to load it before you create your user interface to avoid creating an empty window that might confuse your user. Since this can mean the program doesn't seem to do anything for a few seconds, you might want to print out a message like 'Preparing to start application' or 'Loading image identifier' before you start to load the model.
 
 The `keras.applications` included in loading the model is because TensorFlow is a very large library and is broken up into sections. 'Keras' is one of those, 'applications' is a section of 'Keras', and VGG16 is in the 'applications' section.
 
