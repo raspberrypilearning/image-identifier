@@ -19,7 +19,7 @@ title: What you will need
 ### Software
 
 + Python 3
-+ The PIP Python package installer (usually included with Python 3) and permission to install Python packages on your computer
++ The PIP Python package installer (usually included with Python 3), and permission to install Python packages on your computer
 
 ### Downloads
 
