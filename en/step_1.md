@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project, you'll create an application that will run on your computer. It will let you select a photograph of an everyday object, plant, or animal, and then provide some information about that thing. This could be used in a museum, to let visitors identify exhibits; could be combined with a model specially trained on a city to let visitors identify buildings and landmarks; or really any other situation where a person might look at something and ask "What is that?".
+In this project, you'll create an application that will run on your computer. It will let you select a photograph of an everyday object, plant, or animal, and then provide some information about that thing. This could be used in a museum, to let visitors identify exhibits; it could be combined with a model specially trained on a city to let visitors identify buildings and landmarks; or really any other situation where a person might look at something and ask "What is that?".
 
 ### What you will make
 
