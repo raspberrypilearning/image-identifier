@@ -53,10 +53,10 @@ pip install -r requirements.txt
 
 --- collapse ---
 ---
-title: For Mac OS
+title: For macOS
 ---
 
-To install the libraries and other files you'll use in this project, you need to use the **command line interface** (CLI) — a program to control your computer by typing text commands into a window. The command line interface is called 'terminal' in Linux.
+To install the libraries and other files you'll use in this project, you need to use the **command line interface** (CLI) — a program to control your computer by typing text commands into a window. The command line interface is called 'terminal' in macOS.
 
 In the CLI, you don't access files by clicking to open them, or the directories (folders) they live in. You need to know the **path** to the file. It's like a set of directions, either from where you are currently located on the computer — called a **relative path** — or from the root of the computer's hard drive — called an **absolute** path. You'll need to find the path to the directory you've just unzipped for this next step.
 
