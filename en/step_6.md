@@ -45,7 +45,7 @@ update_text_box(article.summary)
 
 Run the program again and try select some of the pictures included in the project's directory, to see what articles appear in the application.
 
-Try some other pictures from your computer, or the web too. Since it works best with square images, you may want to use the [Google Advanced Image Search](https://www.google.com/advanced_image_search) tool and set the **aspect ratio** to 'Square'.
+Try some other pictures from your computer, or the internet too. Since it works best with square images, you may want to use the [Google Advanced Image Search](https://www.google.com/advanced_image_search) tool and set the **aspect ratio** to 'Square'.
 
 ![The Google Advanced Image Search dialogue, with the aspect ratio set to 'Square'](images/advanced_image_search.png)
 
