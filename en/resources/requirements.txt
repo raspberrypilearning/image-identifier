@@ -6,7 +6,7 @@ certifi==2020.4.5.1
 chardet==3.0.4
 cloudpickle==1.4.1
 cycler==0.10.0
-dask==2.16.0
+dask==2021.10.0
 decorator==4.4.2
 ecapture==0.1.8
 gast==0.3.3
