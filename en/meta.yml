@@ -1,15 +1,19 @@
+---
 title: Amazing image identifier
 hero_image: images/banner.png
-description: Build an application that uses machine vision to recognise everyday objects and tell you about them!
+description: Build an application that uses machine vision to recognise everyday objects
+  and tell you about them!
 version: 4
 listed: false
 copyedit: false
-last_tested: "2020-07-16"
+last_tested: '2020-07-16'
 steps:
-  - title: Introduction
-  - title: Get the starter files
-  - title: Run the program
-  - title: Load your model
-  - title: Predict an image from your computer
-  - title: Connect to Wikipedia
-  - title: What next?
+- title: Introduction
+  completion: engaged
+- title: Get the starter files
+- title: Run the program
+- title: Load your model
+- title: Predict an image from your computer
+  completion: internal
+- title: Connect to Wikipedia
+- title: What next?
