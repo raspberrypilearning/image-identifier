@@ -30,7 +30,7 @@ opencv-python==4.2.0.34
 opt-einsum==3.2.1
 pijnu==20160727
 Pillow==7.1.2
-protobuf==3.12.0
+protobuf==3.15.0
 py3compat==0.4
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
